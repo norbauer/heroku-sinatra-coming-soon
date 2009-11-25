@@ -4,7 +4,6 @@ h3. Installation Instructions
 
 # Create an account at the "Heroku signup page":http://heroku.com/signup.
 # Install the gem: @sudo gem install heroku@
-# If you do not have an SSH key you'll need to "generate one":http://heroku.com/docs/index.html#_setting_up_ssh_public_keys and "tell Heroku about it":http://heroku.com/docs/index.html#_manage_keys_on_heroku.
 # Clone this repo: @git clone git://github.com/norbauer/heroku-sinatra-coming-soon [appname]@
 # @cd appname@
 # @heroku create [optional-app-name]@ (You can rename your app with @heroku rename@)
