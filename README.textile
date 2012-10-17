@@ -3,7 +3,7 @@ A simple "coming soon" sinatra application ready for deployment to "Heroku":http
 h3. Installation Instructions
 
 # Create an account at the "Heroku signup page":http://heroku.com/signup.
-# Install the gem: @sudo gem install heroku@
+# Install the toolbelt: https://toolbelt.heroku.com/
 # Clone this repo: @git clone git://github.com/norbauer/heroku-sinatra-coming-soon [appname]@
 # @cd appname@
 # @heroku create [optional-app-name]@ (You can rename your app with @heroku rename@)
@@ -11,8 +11,5 @@ h3. Installation Instructions
 
 To add custom domains to your new app:
 
-# @heroku addons:add custom_domains@
 # @heroku domains:add www.yournewdomain.com@
 # @heroku domains:add yournewdomain.com@
-
-Forked from "bmizerany/heroku-sinatra-app":http://github.com/bmizerany/heroku-sinatra-app.
